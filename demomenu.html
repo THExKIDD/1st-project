@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        
+        .menu {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+        
+        .menu-item {
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 10px;
+            transition: transform 0.2s;
+            cursor: pointer;
+        }
+
+        .menu-item:hover {
+            transform: scale(1.05);
+        }
+
+        .menu-item img {
+            max-width: 100%;
+        }
+        
+        .menu-item-description {
+            display: none;
+        }
+
+        .menu-item:hover .menu-item-description {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <h1>Restaurant Menu</h1>
+    <form >
+    <div class="menu">
+        <div class="menu-item">
+            <img src="C:\wamp64\www\Food Order\images\Pizza.jpg" alt="Dish 1">
+            <h2>Pizza</h2>
+            <p class="menu-item-description">Rs 100 (regular size)</p>
+            <label for="pizza">Quantity</label>
+            <input type="number" name="pizza" id="pizza">
+        </div>
+        <div class="menu-item">
+            <img src="C:\wamp64\www\Food Order\images\burger.jpg" alt="Dish 2">
+            <h2>Burger</h2>
+            <p class="menu-item-description">This is the description for Dish 2.</p>
+            <label for="burger">Quantity</label>
+            <input type="number" name="burger" id="burger">
+        </div>
+        <div class="menu-item">
+            <img src="C:\wamp64\www\Food Order\images\momos.jpeg" alt="Dish 3">
+            <h2>Momos</h2>
+            <p class="menu-item-description">This is the description for Dish 3.</p>
+            <label for="momos">Quantity</label>
+            <input type="number" name="momosr" id="momos">
+        </div>
+        <div class="menu-item">
+            <img src="C:\wamp64\www\Food Order\images\noodles.jpg" alt="Dish 4">
+            <h2>Momos</h2>
+            <p class="menu-item-description">This is the description for Dish 4.</p>
+            <label for="noodles">Quantity</label>
+            <input type="number" name="noodles" id="noodles">
+        </div>
+        <input type="submit" name="btn1" value="GET TOTAL">
+    </div>
+    </form>
+
+    <script>
+        // You can add JavaScript here for more advanced interactions.
+    </script>
+</body>
+</html>
+
+
+
+          

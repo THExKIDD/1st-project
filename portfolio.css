@@ -1,0 +1,6 @@
+.head1{
+    border: 5px outset red;
+  background-color: black;
+  text-align: right;
+  -webkit-text-fill-color: antiquewhite;
+}
